@@ -1,6 +1,8 @@
 # Learning to Shadow Hand-drawn Sketches
 
-Official Implementation of "Learning to Shadow Hand-drawn Sketches" (CVPR 2020).
+Official Implementation of "Learning to Shadow Hand-drawn Sketches".
+
+*IEEE Conference on Computer Vision and Pattern Recognition* **CVPR 2020 (Oral)**
 
 [Project Site](https://cal.cs.umbc.edu/Papers/Zheng-2020-Shade) | [Paper](https://arxiv.org/abs/2002.11812) | Training Code, Online Demo and Dataset (coming soon)
 
@@ -45,30 +47,30 @@ The dataset will be released in the future.
 
 ## Gallery
 
-<img src="https://github.com/qyzdao/Learn_to_Shade_Sketch/blob/master/images/26_710.png" width="200"><img src="https://github.com/qyzdao/Learn_to_Shade_Sketch/blob/master/images/2_810.png" width="200"><img src="https://github.com/qyzdao/Learn_to_Shade_Sketch/blob/master/images/47_710.png" width="150"><img src="https://github.com/qyzdao/Learn_to_Shade_Sketch/blob/master/images/5_410.png" width="200">
+<img src="https://github.com/qyzdao/ShadeSketch/blob/master/images/26_710.png" width="200"><img src="https://github.com/qyzdao/ShadeSketch/blob/master/images/2_810.png" width="200"><img src="https://github.com/qyzdao/ShadeSketch/blob/master/images/47_710.png" width="150"><img src="https://github.com/qyzdao/ShadeSketch/blob/master/images/5_410.png" width="200">
 
-<img src="https://github.com/qyzdao/Learn_to_Shade_Sketch/blob/master/images/girl-210.gif" width="200"><img src="https://github.com/qyzdao/Learn_to_Shade_Sketch/blob/master/images/girl-810.gif" width="200"><img src="https://github.com/qyzdao/Learn_to_Shade_Sketch/blob/master/images/b.gif" width="200"><img src="https://github.com/qyzdao/Learn_to_Shade_Sketch/blob/master/images/c.gif" width="200">
+<img src="https://github.com/qyzdao/ShadeSketch/blob/master/images/girl-210.gif" width="200"><img src="https://github.com/qyzdao/ShadeSketch/blob/master/images/girl-810.gif" width="200"><img src="https://github.com/qyzdao/ShadeSketch/blob/master/images/b.gif" width="200"><img src="https://github.com/qyzdao/ShadeSketch/blob/master/images/c.gif" width="200">
 
-<img src="https://github.com/qyzdao/Learn_to_Shade_Sketch/blob/master/images/11-top.gif" width="200"><img src="https://github.com/qyzdao/Learn_to_Shade_Sketch/blob/master/images/continuous_lighting_1/810-830.gif" width="200"><img src="https://github.com/qyzdao/Learn_to_Shade_Sketch/blob/master/images/continuous_lighting_1/front-lighting2.gif" width="200"><img src="https://github.com/qyzdao/Learn_to_Shade_Sketch/blob/master/images/continuous_lighting_1/side-lighting2.gif" width="200">
+<img src="https://github.com/qyzdao/ShadeSketch/blob/master/images/11-top.gif" width="200"><img src="https://github.com/qyzdao/ShadeSketch/blob/master/images/continuous_lighting_1/810-830.gif" width="200"><img src="https://github.com/qyzdao/ShadeSketch/blob/master/images/continuous_lighting_1/front-lighting2.gif" width="200"><img src="https://github.com/qyzdao/ShadeSketch/blob/master/images/continuous_lighting_1/side-lighting2.gif" width="200">
 
-<img src="https://github.com/qyzdao/Learn_to_Shade_Sketch/blob/master/images/13-top.gif" width="200"><img src="https://github.com/qyzdao/Learn_to_Shade_Sketch/blob/master/images/continuous_lighting_2/front-lighting-41600.gif" width="200"><img src="https://github.com/qyzdao/Learn_to_Shade_Sketch/blob/master/images/continuous_lighting_2/side-lighting-41600.gif" width="200"><img src="https://github.com/qyzdao/Learn_to_Shade_Sketch/blob/master/images/60-top.gif" width="200">
+<img src="https://github.com/qyzdao/ShadeSketch/blob/master/images/13-top.gif" width="200"><img src="https://github.com/qyzdao/ShadeSketch/blob/master/images/continuous_lighting_2/front-lighting-41600.gif" width="200"><img src="https://github.com/qyzdao/ShadeSketch/blob/master/images/continuous_lighting_2/side-lighting-41600.gif" width="200"><img src="https://github.com/qyzdao/ShadeSketch/blob/master/images/60-top.gif" width="200">
 
-<img src="https://github.com/qyzdao/Learn_to_Shade_Sketch/blob/master/images/4-top-25800.gif" width="200"><img src="https://github.com/qyzdao/Learn_to_Shade_Sketch/blob/master/images/4_front_41600.gif" width="200"><img src="https://github.com/qyzdao/Learn_to_Shade_Sketch/blob/master/images/4_side_25800.gif" width="200"><img src="https://github.com/qyzdao/Learn_to_Shade_Sketch/blob/master/images/60_front_25800.gif" width="200">
+<img src="https://github.com/qyzdao/ShadeSketch/blob/master/images/4-top-25800.gif" width="200"><img src="https://github.com/qyzdao/ShadeSketch/blob/master/images/4_front_41600.gif" width="200"><img src="https://github.com/qyzdao/ShadeSketch/blob/master/images/4_side_25800.gif" width="200"><img src="https://github.com/qyzdao/ShadeSketch/blob/master/images/60_front_25800.gif" width="200">
 
-<img src="https://github.com/qyzdao/Learn_to_Shade_Sketch/blob/master/images/42-top.gif" width="200"><img src="https://github.com/qyzdao/Learn_to_Shade_Sketch/blob/master/images/42-front-lighting-25800.gif" width="200"><img src="https://github.com/qyzdao/Learn_to_Shade_Sketch/blob/master/images/42-side-lighting-25800.gif" width="200"><img src="https://github.com/qyzdao/Learn_to_Shade_Sketch/blob/master/images/soft1.gif" width="200">
+<img src="https://github.com/qyzdao/ShadeSketch/blob/master/images/42-top.gif" width="200"><img src="https://github.com/qyzdao/ShadeSketch/blob/master/images/42-front-lighting-25800.gif" width="200"><img src="https://github.com/qyzdao/ShadeSketch/blob/master/images/42-side-lighting-25800.gif" width="200"><img src="https://github.com/qyzdao/ShadeSketch/blob/master/images/soft1.gif" width="200">
 
 ## License
 
-Models is available under Creative Commons BY-NC 4.0 license. You can use, redistribute the models for **non-commercial purposes**.
+Models are available under Creative Commons BY-NC 4.0 license. You can use, redistribute the models for **non-commercial purposes**.
 
 ## Citation
 
-If you use our work for your research, please cite our paper
+If you use our work or dataset, please cite our paper.
 ```
 @InProceedings{Zheng2020LSHS,
 title = {Learning to Shadow Hand-drawn Sketches},
-author = {Qingyuan Zheng, Zhuoru Li and Adam W. Bargteil},
-booktitle = {The IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},
+author = {Zheng, Qingyuan and Li, Zhuoru and Bargteil, Adam},
+booktitle = {Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition},
 year = {2020}
 }
 ```
