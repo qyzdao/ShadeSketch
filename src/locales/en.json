@@ -1,0 +1,75 @@
+{
+    "toolbar": {
+        "reset": "Reset (Ctrl/Cmd+R)",
+        "import": "Import (Ctrl/Cmd+O)",
+        "sample": "Sample",
+        "undo": "Undo (Ctrl/Cmd+Z)",
+        "redo": "Redo (Ctrl/Cmd+Y)",
+        "brush": "Brush (B)",
+        "eraser": "Eraser (E)",
+        "move": "Move (M)",
+        "rotate": "Roate (R)",
+        "scale": "Scale (S)",
+        "preprocess": "Preprocess",
+        "shade": "Shade",
+        "help": "Help (F1)"
+    },
+    "panel": {
+        "sample": "Sample",
+        "eraser": "Eraser",
+        "brush": "Brush",
+        "size": "Size",
+        "autoCorrection": "Auto Correction",
+        "preprocessing": "Preprocessing",
+        "level": "Level",
+        "thresholdLine": "Threshold Line",
+        "smoothLine": "Smooth Line",
+        "shading": "Shading",
+        "normalization": "Normalization",
+        "shadeResult": "Shade Result",
+        "shadeLine": "Shade Line",
+        "help": "Help",
+        "start": "Start"
+    },
+    "guide": {
+        "start": [
+            "Drag and drop your image",
+            "or start to paint"
+        ]
+    },
+    "help": {
+        "text": [
+            "Welcome to demo program of ShadeSketch {LineShader}. The method of this program is based on the paper {Learning to Shadow Hand-drawn}, which can shade line drawing.",
+            "1. Click \"Start\" and wait for the model weight to load.",
+            "2. Drag and drop the image onto the left canvas to upload the image. You can also use \"Import\" and \"Sample\" (left toolbar) to load the image, or \"Brush\" and \"Eraser\" to draw the image. The image can be adjusted by \"Move\", \"Rotate\", and \"Scale\". It is recommended that the main content is fitted to the gray frame.",
+            "3. You can use \"Preprocessing\" to further process the line draft, and \"Threshold Line\" and \"Smooth Line\" processing to get the right thickness of the line for better results.",
+            "4. After processing, you can use \"Shade\" to shade the line draft. In the \"Shade\" panel, you can change the position of the light source by clicking the point on the cube.",
+            "5. After clicking \"Shade Line\", the inference will be performed. The initial inference might take a long time. During the inference, interface or browser might not respond, please wait. Check \"Shadow Result\" to get pure shade result. Right click on both canvases and click \"Save as\" in the popup menu to save the image.",
+            "This program is based on Tensorflow.js, please use the latest browser to ensure that the program can execute correctly. This program needs GPU to execute, and needs to load a larger model, please execute on the desktop platform. All operations are performed locally, this program will not collect any of your drawing data.",
+            "Due to some limitations, it is recommended to upload only line drawings of people, animals or curved objects with sizes of 200 px to 1000 px. For better results, please make sure that the lines have proper thickness after processing."
+        ],
+        "link": [
+            "Video",
+            "Project",
+            "Github"
+        ],
+        "url":[
+            "https://github.com/qyzdao/ShadeSketch",
+            "https://cal.cs.umbc.edu/Papers/Zheng-2020-Shade/",
+            "https://github.com/qyzdao/ShadeSketch"
+        ]
+    },
+    "reset": "Do you want to reset?",
+    "message": {
+        "threshold": "Threshold ",
+        "smooth": "Smoothing ",
+        "shade": "Shading ",
+        "error": "An error happened",
+        "loadingProgress": "Loading models",
+        "loadingFinish": "Loading models is done",
+        "loadingError": "An loading error happened",
+        "executeProgress": "is executing, please wait...",
+        "executeFinish": "is done",
+        "executeError": "An executing error happened"
+    }
+}

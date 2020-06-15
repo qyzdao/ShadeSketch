@@ -1,0 +1,74 @@
+{
+    "toolbar": {
+        "reset": "重置 (Ctrl/Cmd+R)",
+        "import": "導入 (Ctrl/Cmd+O)",
+        "sample": "樣例",
+        "undo": "撤消 (Ctrl/Cmd+Z)",
+        "redo": "重做 (Ctrl/Cmd+Y)",
+        "brush": "筆刷 (B)",
+        "eraser": "橡皮 (E)",
+        "move": "移動 (M)",
+        "rotate": "旋轉 (R)",
+        "scale": "縮放 (S)",
+        "preprocess": "預處理",
+        "shade": "光影",
+        "help": "幫助 (F1)"
+    },
+    "panel": {
+        "sample": "樣例",
+        "eraser": "橡皮",
+        "brush": "筆刷",
+        "size": "尺寸",
+        "autoCorrection": "自動更正",
+        "preprocessing": "預處理",
+        "level": "色階",
+        "thresholdLine": "閾值處理",
+        "smoothLine": "平滑處理",
+        "shading": "光影",
+        "normalization": "歸一化處理",
+        "shadeResult": "光影結果",
+        "shadeLine": "光影處理",
+        "help": "幫助",
+        "start": "開始"
+    },
+    "guide": {
+        "start": [
+            "拖放圖片",
+            "或開始繪製"
+        ]
+    },
+    "help": {
+        "text": [
+            "歡迎使用 ShadeSketch{LineShader} 的演示程式。本程式的方法基於論文 {Learning to Shadow Hand-drawn Sketches}，其可以實現對線稿進行光影繪製。",
+            "1. 點擊「開始」等待模型權重加載完畢。",
+            "2. 將圖片拖放至左邊的畫板即可上傳圖像。此外也可以使用「導入」及「樣例」（左邊工具欄）讀入圖像，或著使用「筆刷」和「橡皮」繪製圖像。圖像可以通過「移動」、「旋轉」及「縮放」進行調整，推薦將主體限制於灰色框內。",
+            "3. 你可以使用「預處理」對線稿進行進一步處理，使用「閾值處理」及「平滑處理」得到粗細合適的線條有助於獲得更好的效果。",
+            "4. 在處理後，你可以使用「光影」對線稿進行打光。在「光影」面板中，你可以通過點擊正方體上的頂點以調整光源位置。",
+            "5. 在點擊「光影處理」後，會執行計算，初次的計算會耗費較長時間。運算時，介面或瀏覽器會無響應，請耐心等待。勾選「光影結果」可以得到單獨的影子結果。在兩個畫布上點擊右鍵，在彈出的功能表中點擊圖片另存為，可以將圖片保存。",
+            "本程式基於Tensorflow.js，請使用最新的瀏覽器，以保證程式能夠正確進行。本程式執行需要GPU，且需要載入較大的模型，請在桌面端執行。由於在本地執行運算，因此本程式不會收集任何你的繪畫資料。",
+            "由於一些限制，僅推薦上傳尺寸為200 px至1000 px，以人物、動物或曲面物體為主的線稿。為了獲得更好的效果，請保證上傳處理後的線條粗細合適。"
+        ],
+        "link": [
+            "視頻",
+            "專案",
+            "Github"
+        ],
+        "url":[
+            "https://github.com/qyzdao/ShadeSketch",
+            "https://cal.cs.umbc.edu/Papers/Zheng-2020-Shade/",
+            "https://github.com/qyzdao/ShadeSketch"
+        ]
+    },
+    "reset": "希望重置畫板嗎？",
+    "message": {
+        "threshold": "閾值處理",
+        "smooth": "平滑處理",
+        "shade": "光影處理",
+        "loadingProgress": "載入模型中",
+        "loadingFinish": "載入模型完成",
+        "loadingError": "載入模型發生錯誤",
+        "executeProgress": "執行中，請稍候...",
+        "executeFinish": "執行完成",
+        "executeError": "執行發生錯誤"
+    }
+}
