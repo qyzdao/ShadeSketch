@@ -1,4 +1,5 @@
-tensorflow>=1.12.0
 numpy
+scipy
+matplotlib
 opencv-python
-argparse
+tensorflow
